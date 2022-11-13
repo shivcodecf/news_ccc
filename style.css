@@ -1,0 +1,513 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-position: center;
+    scroll-behavior: smooth;
+    
+    
+    /* background-color: black; */
+}
+.nav{
+    /* background-image: url("https://image.shutterstock.com/image-vector/news-label-folded-paper-logo-260nw-1564577314.jpg"); */
+    height:80px;
+    width: 100%;
+    background-color: #008dc9;
+    text-align:center;
+    font-weight:100px;
+    font-size: 80px;
+    color:white;
+    
+    
+}
+.nav0{
+   min-height: 90px;
+   max-width: 100%;
+    background-color:white;
+    font-size: 40px;
+    color: #008dc9;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    /* background-image: url("https://www.publichealth.com.ng/wp-content/uploads/2020/09/World-Health-Organization-Logo-emblem.png"); */
+}
+.nav0  img{
+    /* float:right; */
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    
+}
+.mainHead{
+    width: 350px;
+}
+
+@media only screen and (max-width: 600px){
+body{
+    background-color: white;
+     margin: 0;
+    padding: 0; 
+} 
+}
+.container{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    background: white;
+    width: 250px;
+    height: 550px;
+    margin: 25px;
+    border-radius: 15px;
+   
+
+    
+}
+.card-image {
+    background-color: aqua;
+    height: 250px;
+    margin-top:0px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    margin: 10px;
+    
+}
+.car-1 {
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/deltacron-one_one.jpeg?VersionId=pK4QKadVZ8AKRQSDvxbEGENF0I9tvBo2");
+}
+.card a{
+    background-color: black;
+    color:white;
+    padding: 15px 8px 15px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    text-align:center;
+}
+.car-2{
+    background-image: url("https://media.gettyimages.com/photos/human-brain-picture-id117613065?s=612x612");
+}
+.card:hover{
+    background-color:darkgrey;
+    color:white;
+    cursor:pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    
+}
+.idk{
+    background-color: white;
+    /* width:50%;
+    height:150px; */
+    /* margin-left:320px; */
+    margin-top: 30px;
+    font-size:30px;
+    /* margin-bottom: 5px; */
+    margin-left: 5px;
+
+}
+.str{
+    color: blue;
+    text-align:center;
+    font-size: 50px;
+
+}
+.omg{
+    background-color: white;
+    margin-top: 20px;
+    margin: left 100px;px;
+    font-family: 'Quintessential', cursive;
+}
+.idk1{
+    font-size :50px;
+    color:green;
+    margin-left:100px;
+}
+.mush{
+background-color: white;
+/* text-align: center; */
+font-size:30px;
+margin-left:5px;
+background-size:cover;
+/* float:right; */
+height:70vh;
+margin-top: 10px;
+
+}
+.mush1{
+    /* text-align: right; */
+    margin-left:80px;
+    color:brown;
+    font-size:50px;
+}
+.moreText {
+    display:none;
+
+}
+.text{
+    color:black;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    background-color:rgb(149,170,197);
+    color: rgb(53,49,49);
+    border-radius: 2px ;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text.show-more .moreText {
+    display: inline;
+}
+.text.show-more .dots {
+    display: none;
+}
+/* .trans{
+    transform: translate(-100vw);
+    
+}
+.TranslateBack{
+    transform: translate(0vw);
+    transition: 2s;
+} */
+.ilu{
+    font-size: 50px;
+    color:darkblue;
+    background-color:#d6cadd;
+    text-align:center;
+    margin-top:5px;
+    /* background-image: url("https://images.hindustantimes.com/img/2022/11/05/550x309/pexels-nataliya-vaitkevich-6837648_1660305837972_1667651429387_1667651429387.jpg"); */
+     background-size: cover;
+     height:100vh;
+     opacity:0.6;
+
+}
+/* .sda {
+    width: 370px;
+    height:400px;
+    background-color:black;
+    margin-left: 300px;
+    margin-top:40px;
+    background-image:url("https://images.hindustantimes.com/img/2022/11/05/550x309/pexels-nataliya-vaitkevich-6837648_1660305837972_1667651429387_1667651429387.jpg");
+ */
+
+
+.banner-text{
+    
+
+    background-image: url("https://images.hindustantimes.com/img/2022/11/05/550x309/pexels-nataliya-vaitkevich-6837648_1660305837972_1667651429387_1667651429387.jpg");
+    max-width: fit-content;
+    background-size: cover;
+    margin: 0 300px;
+    padding: 80px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 30px;
+    color:black;
+    background-color: whitesmoke;
+    text-decoration: dotted;
+  
+    
+}
+.banner-text image{
+    width: 100%;
+}
+.back{
+    position: absolute;
+    z-index: 12;
+
+    background-color: bisque;
+    opacity: 0.4;
+}
+.banner {
+  position:relative;
+    
+    color:gold;
+    font-size:30px;
+    margin-bottom:70px;
+
+}
+.klm{
+    margin-top: 160px;
+}
+.fck{
+    color:blue;
+}
+.fck1{
+    color:black;
+}
+.fck2{
+    color:blueviolet;
+}
+.banner-text:hover{
+    background-color: rgb(30, 175, 8);
+    color:green;
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: all 2s ease;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:#282828;
+
+}
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 60%;
+    margin-top: 10px;
+    color: #39ca74;
+}
+span{
+    color:#ffffff;
+
+}
+.navul{
+    width: auto;
+    float:left;
+    margin-top: 8px;
+}
+.navli{
+    display: inline-block;
+    padding: 15px 30px;
+
+}
+a{
+    text-align: center;
+    color:#ffffff;
+    text-decoration: none;
+    font-family: 'open Sans', ans-serif;
+    font-size: 1.2vw;
+}
+a:hover{
+    color:#f0c330;
+    transition: 0.5s;
+
+}
+#conf0{
+    /* background-image: url("https://timesofindia.indiatimes.com/thumb/83533644.cms?width=240&height=180"); */
+    background-repeat: no-repeat;
+    background-color:white;
+    font-size:25px;
+    margin-left: 30px;
+    font-family: 'Amita', cursive;
+   
+}
+.conf{
+    width:50%;
+    height:250px;
+    background-color: white;
+    
+}
+.th{
+    color:black;
+    font-size: 30px;
+    float: left;
+}
+#conf2{
+    margin-top: 200px;
+    font-size: 27px;
+    height: 100vh;
+    background-color:#404258;
+    color:white;
+    margin-left:10px;
+    
+
+}
+.lol{
+    font-size: 50px;
+    color:darkblue;
+}
+.lol0{
+    font-size: 50px ;
+    color:violet;
+}
+.liuf{
+    color:wheat;
+    font-family: 'Cabin', sans-serif;
+}
+#conf3{
+    margin-top: 50px;
+    color:rgb(10, 16, 134);
+    font-size: 27px;
+    background-color:white;
+    margin-left: 10px;
+}
+.idks{
+    color:black;
+}
+.agbc{
+    font-size: 50px;
+    color:#39ca74;
+}
+.transHead{
+    transform: translate(-100vw);
+    transition: 2s;
+    font-size:70px;
+   
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+color:#21130d;
+text-align: center;
+}
+.transback{
+    transform: translate(0vw);
+}
+p{
+    font-family: 'Acme', sans-serif;
+}
+.kho{
+    float:left;
+    margin-left:20px;
+    margin-top: 60px;
+    
+}
+.ifua{
+    color:blueviolet;
+}
+.text{
+    font-size:25px;
+}
+.car-3{
+    background-image: url("https://images.hindustantimes.com/img/2022/11/07/550x309/istockphoto-1306192955-612x612_1667816872079_1667816882797_1667816882797.jpg");
+}
+.abcd{
+    font-size: 70px;
+    text-align: center;
+    color:#21130d;
+
+    
+           
+}
+.ibhg{
+    font-size:60px;
+    color:#21130d;
+    text-align: center;
+}
+.lol6{
+    color:#21130d;
+    font-size:50px;
+    text-shadow:2px 2px;
+}
+.footer{
+    background-color:#008dc9;
+    margin-top: 30px;
+}
+.container1{
+    max-width: 1170px;
+    /* background-color:red; */
+    margin:auto;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:#008dc9;
+    padding: 70px 0;
+    
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:gold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+
+}
+.pvlhb {
+    font-size: 27px;
+    margin-left: 7px;
+    color:#008dc9;
+    margin-left:7px;
+}
+.pvlhb1{
+font-size: 60px;
+color:black;
+font-weight: 12px;
+}
+.text5{
+    color:black;
+    font-weight: 5px;
+}
+.cpy{
+    font-size: 30px;
+    text-align:center;
+    background-color: #21130d;
+    color:white;
+}
+@media only screen and (max-width:668px){
+    .container{
+        display: block;
+        width:100%;
+        align-items:center;
+       
+    
+    }
+    .card{
+        width:100%;
+        margin-left:5px;
+    }
+    .mush{
+        height:auto;
+    }
+    .ilu{
+        height:auto;
+    }
+   header{
+    height: auto;
+   }
+   .conf{
+    width:50%;
+    height:auto;
+}
+#conf2{
+    
+    height: auto;
+   
+}
+.ilu,banner-text,klm{
+    width:100%;
+}
+#conf0{
+    height: auto;
+    width:100%;
+}
+*{
+    height:auto;
+    width:100%;
+}
+
+    
+}
