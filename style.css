@@ -4,6 +4,8 @@
     box-sizing:border-box;
     background-position: center;
     scroll-behavior: smooth;
+    margin-left:12px;
+    margin-right:12px;
     
     
     /* background-color: black; */
@@ -60,7 +62,7 @@ body{
 }
 .card{
     background: white;
-    width: 250px;
+    width: 280px;
     height: 550px;
     margin: 25px;
     border-radius: 15px;
