@@ -480,6 +480,13 @@ font-weight: 12px;
     .card{
         width:100%;
         margin-left:5px;
+        font-size:27px;
+        height:auto;
+        padding:10px;
+        margin:40px;
+    }
+    .card a{
+        font-size:30px;
     }
     .mush{
         height:auto;
@@ -497,6 +504,8 @@ font-weight: 12px;
 #conf2{
     
     height: auto;
+    overflow:hidden;
+    width:100%;
    
 }
 .ilu,banner-text,klm{
@@ -505,6 +514,21 @@ font-weight: 12px;
 #conf0{
     height: auto;
     width:100%;
+    overflow:hidden;
+}
+.container{
+    flex-direction: column;
+}
+.row{
+    flex-direction: column;
+}
+.footer-col h4{
+    font-size: 27px;
+
+    
+}
+.footer-col a{
+    font-size:25px;
 }
 *{
     height:auto;
@@ -512,4 +536,27 @@ font-weight: 12px;
 }
 
     
+}
+@media only screen and (max-width:998px){
+    #conf2{
+    
+        height: auto;
+        overflow:hidden;
+        width:100%;
+       
+    }
+    #conf0{
+        height: auto;
+        width:100%;
+        overflow:hidden;
+    }
+    .card{
+        font-size:25px;
+        flex-direction: column;
+        width:100%;
+    }
+    .footer-col a{
+        font-size:25px;
+    }
+
 }
